@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Netflix-font;
+    src: url(../fonts/BebasNeue.otf);
+}
+:root{
+    --principal: #E50914;
+    --secundario: #141414;
+    --conteudo: #CCC;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--secundario);
+}
+/*Header*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.container .principal{
+    display: flex;
+    align-items: center;
+}
+.container .secundario{
+    display: flex;
+    align-items: center;
+}
+.container .secundario img{
+    margin: 0 15px;
+    cursor: pointer;
+}
+header{
+    padding: 15px 20px;
+}
+header .logo{
+    color: var(--principal);
+    font-family: "Netflix-font";
+    font-size: 35px;
+    margin-left: 20px;
+}
+header .container a{
+    color: var(--conteudo);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+}
+header .container a:hover{
+    transition: .5s;
+    color: #AAA;
+}
+nav{
+    margin-left:30px;
+}
