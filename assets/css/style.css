@@ -16,23 +16,23 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--secundario);
+    color: white;
 }
 /*Header*/
-.container{
+header .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
 }
-.container .principal{
-    display: flex;
-    align-items: center;
-}
-.container .secundario{
+header .container .principal{
     display: flex;
     align-items: center;
 }
-.container .secundario img{
+header .container .secundario{
+    display: flex;
+    align-items: center;
+}
+header .container .secundario img{
     margin: 0 15px;
     cursor: pointer;
 }
@@ -57,4 +57,25 @@ header .container a:hover{
 }
 nav{
     margin-left:30px;
+}
+/*Main*/
+
+.filme-principal{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url(../img/onepiece1000.jpg);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.filme-principal .titulo{
+    font-size: 40px;
+}
+.filme-principal .descricao{
+    width: 600px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.filme-principal .botao{
+    font-size: 20px;
 }
