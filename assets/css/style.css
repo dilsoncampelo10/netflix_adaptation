@@ -72,6 +72,10 @@ nav{
     margin-left: 40px;
     display: none;
 }
+#btn_drop{
+    display: none;
+}
+
 /*Main*/
 
 .filme-principal{
@@ -154,7 +158,11 @@ footer  a{
 @media(max-width:630px){
     header .menu{
         display: none;
+        position: absolute;
+        margin-top: 40px;
+        display: block;
     }
+   
     .filme-principal .titulo{
         font-size: 30px;
     }
