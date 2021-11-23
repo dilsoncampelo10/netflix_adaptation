@@ -15,15 +15,4 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-function menu(element){
-    let menu = document.querySelector('header .menu');
-    let auxilio = true;
-    if(element.checked){
-        menu.style.display = 'block';
-    } else{
-        menu.style.display = 'none';
-    }
-    if(window.innerWidth>=640){
-        menu.style.display = 'block';
-    }
-}
+
